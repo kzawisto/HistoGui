@@ -1,0 +1,44 @@
+{
+"dat_file1":{
+   "options":{
+   	"numOfEvents":10000,
+   	"treeName":"TestTree",
+   	"branchName":"entry",
+   	"myDataFile":"bindata",
+   	"rootDataFile":"TestData.root"
+   },
+   "histos":[
+   		{
+   			"name":"mass",
+   			"bins":128,
+   			"min":0,
+   			"max":128
+   		},
+   		{
+   			"name":"ptL1",
+   			"bins":128,
+   			"min":0,
+   			"max":128
+   		},
+   		{
+   			"name":"ptL2",
+   			"bins":128,
+   			"min":0,
+   			"max":128
+   		},
+   		{
+   			"name":"isoL1",
+   			"bins":128,
+   			"min":0,
+   			"max":128
+   		},
+   		{
+   			"name":"isoL2",
+   			"bins":128,
+   			"min":0,
+   			"max":128
+   		}
+   		
+   ]
+  }
+}
