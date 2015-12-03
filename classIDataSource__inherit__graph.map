@@ -1,0 +1,4 @@
+<map id="IDataSource" name="IDataSource">
+<area shape="rect" id="node2" href="$classDataSource.html" title="Regular DataSource, loads from multiplexed binary file each time. " alt="" coords="5,80,96,107"/>
+<area shape="rect" id="node3" href="$classPreloadedDataSource.html" title="Cached DataSource, data stored in RAM during program run. " alt="" coords="120,80,269,107"/>
+</map>

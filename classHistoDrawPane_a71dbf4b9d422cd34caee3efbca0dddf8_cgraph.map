@@ -1,0 +1,7 @@
+<map id="HistoDrawPane::paintNow" name="HistoDrawPane::paintNow">
+<area shape="rect" id="node2" href="$classHistoDrawPane.html#a7ae4a258937be1e04075ccb3b0ae9274" title="HistoDrawPane::render" alt="" coords="231,31,389,57"/>
+<area shape="rect" id="node3" href="$classHistoDrawPane.html#a0a8936eeba3d77304085e166d592b977" title="HistoDrawPane::setHistSizes" alt="" coords="437,5,635,32"/>
+<area shape="rect" id="node4" href="$classHistoDrawPane.html#a95bb03f5c1ba2590ee6a3ab73e5070ff" title="HistoDrawPane::drawHisto" alt="" coords="445,56,627,83"/>
+<area shape="rect" id="node5" href="$classHistoDrawPane.html#aeab2a34f05ca19f47646c0e45ed4d4d0" title="HistoDrawPane::drawTics" alt="" coords="683,27,857,53"/>
+<area shape="rect" id="node6" href="$classMyHistogramWrapper.html#ac594f90292f391e159c3b4536e9b23d1" title="MyHistogramWrapper\l::getNormalizedBin" alt="" coords="695,78,845,119"/>
+</map>

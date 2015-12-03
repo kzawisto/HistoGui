@@ -1,0 +1,5 @@
+<map id="HistoGraph" name="HistoGraph">
+<area shape="rect" id="node2" href="$classMyHistogramWrapper.html" title="MyHistogramWrapper" alt="" coords="28,361,177,388"/>
+<area shape="rect" id="node6" href="$classHistogramConfig.html" title="A configuration container for histograms created from one ROOT branch (as series of events)..." alt="" coords="397,161,517,187"/>
+<area shape="rect" id="node5" href="$classHistoCreator.html" title="HistoCreator" alt="" coords="197,272,293,299"/>
+</map>
