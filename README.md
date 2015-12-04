@@ -1,5 +1,5 @@
 # HistoGui
-A graphical tool for particle physics data analysis.
+##A graphical tool for particle physics data analysis.
 
 Given series of events in ROOT data file, the program allows to plot histograms and apply 
 cutoffs to each histogram with wxWidgets based GUI. 
@@ -12,12 +12,12 @@ Below we have "option" node, comprising self-evident description of our files st
 
 To generate a binary datafile one needs to build ParseTree program, specifying path to the 
 ROOT config tool in DataIO/Makefile and running
-''' make ParseTree''' 
+``` make ParseTree``` 
 in DataIO directory, provide config.json file and run the tool, typing just:
-'''./ParseTree'''.
+```./ParseTree```.
  
 Then to run the gui one needs to build data access shared library and the GUI itself, typing 
-'''make'''
+```make```
 in DataIO and HistogramGui dirs, and copy config.json and generated binary data file to HistogramGui directory.
 
 
