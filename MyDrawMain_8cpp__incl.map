@@ -1,0 +1,6 @@
+<map id="HistogramGui/src/MyDrawMain.cpp" name="HistogramGui/src/MyDrawMain.cpp">
+<area shape="rect" id="node2" href="$MyDrawMain_8h.html" title="Defines wxWidgets Application Frame. " alt="" coords="318,80,428,107"/>
+<area shape="rect" id="node15" href="$Utils_8h.html" title="Conveniently wrapped sstream conversions and container for other utility stuff in future..." alt="" coords="811,80,871,107"/>
+<area shape="rect" id="node9" href="$HistoContainer_8h.html" title="Wraps HistoCreators and provides data to the GUI. " alt="" coords="441,155,561,181"/>
+<area shape="rect" id="node14" href="$MyHistogramWrapper_8h.html" title="Responsible for direct communication between the GUI and HistoCreator. " alt="" coords="644,237,804,263"/>
+</map>

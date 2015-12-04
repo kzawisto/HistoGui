@@ -1,4 +1,5 @@
 <map id="HistogramGui/include/MyDrawMain.h" name="HistogramGui/include/MyDrawMain.h">
-<area shape="rect" id="node2" href="$MyDrawApp_8h_source.html" title="HistogramGui/include\l/MyDrawApp.h" alt="" coords="5,95,152,136"/>
-<area shape="rect" id="node3" href="$MyDrawApp_8cpp.html" title="Code for Application Class. " alt="" coords="21,184,246,211"/>
+<area shape="rect" id="node2" href="$MyDrawApp_8h.html" title="Defines wxWidgets Application class. " alt="" coords="5,95,152,136"/>
+<area shape="rect" id="node3" href="$MyDrawApp_8cpp.html" title="Implementation for Application Class. " alt="" coords="21,184,246,211"/>
+<area shape="rect" id="node4" href="$MyDrawMain_8cpp.html" title="Code for Application Frame. " alt="" coords="227,102,458,129"/>
 </map>

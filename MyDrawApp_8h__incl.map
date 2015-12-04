@@ -1,0 +1,5 @@
+<map id="HistogramGui/include/MyDrawApp.h" name="HistogramGui/include/MyDrawApp.h">
+<area shape="rect" id="node3" href="$MyDrawMain_8h.html" title="Defines wxWidgets Application Frame. " alt="" coords="340,95,451,121"/>
+<area shape="rect" id="node10" href="$HistoContainer_8h.html" title="Wraps HistoCreators and provides data to the GUI. " alt="" coords="553,169,673,196"/>
+<area shape="rect" id="node15" href="$MyHistogramWrapper_8h.html" title="Responsible for direct communication between the GUI and HistoCreator. " alt="" coords="1009,251,1169,278"/>
+</map>
