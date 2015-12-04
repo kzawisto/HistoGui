@@ -1,9 +1,9 @@
-/*
- * DataIO.cpp
- *
- *  Created on: Oct 30, 2015
- *      Author: kzawisto
- */
+/**
+ @file    HistoCreator.cpp
+ @brief HistoCreator implementation
+ @author   kzawisto
+ @created:   2015-10-29
+ **************************************************************/
 
 #include "TH1F.h"
 #include "TFile.h"

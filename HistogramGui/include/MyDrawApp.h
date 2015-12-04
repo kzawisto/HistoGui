@@ -1,10 +1,8 @@
-    /***************************************************************
- * Name:      MyDrawApp.h
- * Purpose:   Defines Application Class
- * Author:    kzawisto ()
- * Created:   2015-10-29
- * Copyright: kzawisto ()
- * License:
+/** *************************************************************
+ @file     MyDrawApp.h
+ @brief   Defines wxWidgets Application class
+ @author   kzawisto
+ @created:   2015-10-29
  **************************************************************/
 
 #ifndef MYDRAWAPP_H

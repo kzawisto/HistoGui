@@ -1,8 +1,8 @@
-/*
- * HistoConfig.cpp
- *
- *  Created on: Oct 30, 2015
- *      Author: kzawisto
+/**
+ @file    HistoConfig.cpp
+ @brief Implementation for HistogramConfig
+ @author   kzawisto
+ @created:   2015-10-29
  */
 
 #include "HistoConfig.h"

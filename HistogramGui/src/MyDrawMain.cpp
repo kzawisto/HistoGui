@@ -1,10 +1,9 @@
-/***************************************************************
+/** *************************************************************
  @file      MyDrawMain.cpp
  @brief   Code for Application Frame
- * Author:    kzawisto ()
- * Created:   2015-10-29
- * Copyright: kzawisto ()
- * License:
+ @author    kzawisto
+ @created:   2015-10-29
+
  **************************************************************/
 
 

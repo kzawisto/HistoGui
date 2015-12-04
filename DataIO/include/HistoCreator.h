@@ -1,9 +1,9 @@
-/*
- * DataIO.h
- *
- *  Created on: Oct 30, 2015
- *      Author: kzawisto
- */
+/**
+ @file    HistoCreator.h
+ @brief Loads multiplexed binary file for the GUI or processes ROOT tree to generate one
+ @author   kzawisto
+ @created:   2015-10-29
+ **************************************************************/
 
 #ifndef INCLUDE_HISTOCREATOR_H_
 #define INCLUDE_HISTOCREATOR_H_

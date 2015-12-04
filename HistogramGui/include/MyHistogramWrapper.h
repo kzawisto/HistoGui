@@ -1,3 +1,16 @@
+/****
+@file MyHistogramWrapper.h
+ @brief Responsible for direct communication between the GUI and HistoCreator
+ @author   kzawisto
+ @created:   2015-11-04
+ ***/
+/** *************************************************************
+ @file      MyHistogramWrapper.h
+ @brief   Responsible for direct communication between the GUI and HistoCreator
+ @author    kzawisto
+ @created:   2015-10-29
+
+ **************************************************************/
 #ifndef MYHISTOGRAM_H
 #define MYHISTOGRAM_H
 #include<vector>

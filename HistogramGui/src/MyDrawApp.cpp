@@ -1,8 +1,8 @@
 /**
  @file      MyDrawApp.cpp
- @brief   Code for Application Class
- @author:    kzawisto
- * Created:   2015-10-29
+ @brief   Implementation for Application Class
+ @author    kzawisto
+ @created  2015-10-29
  * Copyright: kzawisto ()
  * License:
  **************************************************************/

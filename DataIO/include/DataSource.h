@@ -1,9 +1,9 @@
-/*
- * DataSource.h
- *
- *  Created on: Nov 2, 2015
- *      Author: kzawisto
- */
+/**
+ @file    DataSource.h
+ @brief Loading data from binary file for the GUI or testing purposes.
+ @author   kzawisto
+ @created:   2015-10-29
+ **************************************************************/
 
 #ifndef INCLUDE_DATASOURCE_H_
 #define INCLUDE_DATASOURCE_H_
@@ -13,7 +13,7 @@
 using std::__cxx11::string;
 using std::fstream;
 using std::map;
-///Abstract DataSource, taken by HistoCreator to load multiplexed data
+///Abstract DataSource, used by HistoCreator to load multiplexed data
 class IDataSource{
 public:
 

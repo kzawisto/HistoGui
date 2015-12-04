@@ -1,8 +1,8 @@
-/*
+/**
  @file HistoContainer.cpp
  @brief Implementation of container for HistoCreators
- *  Created on: Nov 4, 2015
- *      Author: kzawisto
+ @author   kzawisto
+ @created:   2015-11-04
  */
 
 #include <MyHistogramWrapper.h>

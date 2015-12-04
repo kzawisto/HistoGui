@@ -1,10 +1,9 @@
-/*
- * DataSource.cpp
- *
- *  Created on: Nov 2, 2015
- *      Author: kzawisto
- */
-
+/**
+ @file    DataSource.cpp
+ @brief DataSource implementation
+ @author   kzawisto
+ @created:   2015-10-29
+ **************************************************************/
 #include <DataSource.h>
 #define DATA_PRELOAD_TRESHOLD 300000000;
 ///Wrapper for a (char*) chunk of memory, used by PreloadedDataSourse

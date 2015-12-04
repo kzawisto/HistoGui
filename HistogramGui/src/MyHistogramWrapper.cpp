@@ -1,3 +1,10 @@
+/***
+* @file MyHistogramWrapper.cpp
+ @brief Implementation of MyHistogramWrapper
+ @author   kzawisto
+ @created:   2015-11-04
+ ****/
+
 
 #include <MyHistogramWrapper.h>
 #include<cmath>

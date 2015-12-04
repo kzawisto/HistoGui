@@ -1,4 +1,9 @@
-
+/**
+ @file    Utils.h
+ @brief Conveniently wrapped sstream conversions and container for other utility stuff in future
+ @author   kzawisto
+ @created:   2015-10-29
+ **************************************************************/
 #ifndef UTILS_H
 #define UTILS_H
 #include<sstream>
@@ -7,7 +12,7 @@
 using namespace std;
 /**
  *
- * Wrapper class, never created, only owns static methods
+ * String operations, etc. Wrapper class, never created, only owns static methods
  */
 class Utils
 {

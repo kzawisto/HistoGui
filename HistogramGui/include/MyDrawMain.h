@@ -1,6 +1,6 @@
 /** *************************************************************
  @file      MyDrawMain.h
- @brief   Defines Application Frame
+ @brief   Defines wxWidgets Application Frame
  @author:    kzawisto
  @created:   2015-10-29
  **************************************************************/

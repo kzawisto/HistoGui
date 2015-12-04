@@ -1,10 +1,9 @@
-/*
- * HistoContainer.h
- *
- *  Created on: Nov 4, 2015
- *      Author: kzawisto
- */
-
+/**
+ @file    HistoContainer.h
+ @brief Wraps HistoCreators and provides data to the GUI
+ @author   kzawisto
+ @created:   2015-11-04
+ **************************************************************/
 #ifndef INCLUDE_HISTOCONTAINER_H_
 #define INCLUDE_HISTOCONTAINER_H_
 #include<string>

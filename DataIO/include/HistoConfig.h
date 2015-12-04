@@ -1,8 +1,8 @@
-/*
- * HistoConfig.h
- *
- *  Created on: Oct 30, 2015
- *      Author: kzawisto
+/**
+ @file    HistoConfig.h
+ @brief boost::program_options powered, JSON based options container.
+ @author   kzawisto
+ @created:   2015-10-29
  */
 
 #ifndef INCLUDE_HISTOCONFIG_H_
