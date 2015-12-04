@@ -18,7 +18,7 @@ in DataIO directory, provide config.json file and run the tool, typing just:
 ``` ./ParseTree ```
  
 Then to run the GUI one needs to build data access shared library and the GUI itself, typing 
-```make```
+``` make ```
 in DataIO and HistogramGui dirs, and copy config.json and generated binary data file to HistogramGui directory.
 
 
