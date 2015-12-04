@@ -14,9 +14,10 @@ To generate a binary datafile one needs to build ParseTree program, specifying p
 ROOT config tool in DataIO/Makefile and running
 ``` make ParseTree``` 
 in DataIO directory, provide config.json file and run the tool, typing just:
-```./ParseTree```.
+
+``` ./ParseTree ```
  
-Then to run the gui one needs to build data access shared library and the GUI itself, typing 
+Then to run the GUI one needs to build data access shared library and the GUI itself, typing 
 ```make```
 in DataIO and HistogramGui dirs, and copy config.json and generated binary data file to HistogramGui directory.
 
