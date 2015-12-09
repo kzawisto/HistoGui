@@ -11,7 +11,7 @@
 #include <vector>
 #include<cmath>
 #include <boost/property_tree/ptree.hpp>
-using std::__cxx11::string;
+using std::string;
 using std::vector;
 typedef short unsigned int SUINT;
 using namespace boost::property_tree;

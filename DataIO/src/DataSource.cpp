@@ -5,7 +5,7 @@
  @created:   2015-10-29
  **************************************************************/
 #include <DataSource.h>
-#define DATA_PRELOAD_TRESHOLD 300000000;
+#define DATA_PRELOAD_TRESHOLD 300000000
 ///Wrapper for a (char*) chunk of memory, used by PreloadedDataSourse
 struct DataBuffer{
 	int len;
@@ -71,6 +71,6 @@ DataBuffer* PreloadContainer::getDataBuffer(string path) {
 
 IDataSource* PreloadContainer::getDataSource(string path) {
 	auto l = getLength(path);
-	if(l > 100000) return new DataSource(path);
+	if(l > DATA_PRELOAD_TRESHOLD) return new DataSource(path);
 	else return new PreloadedDataSource(getDataBuffer(path));
 }

@@ -1,5 +1,5 @@
 ROOT_CONFIG = `../root/bin/root-config --cflags --glibs`
-FLAGS = -std=c++11 -g -fPIC
+FLAGS = -std=c++11 -fPIC
 IDIR = -Iinclude
 	
 SRC = $(wildcard src/*.cpp)

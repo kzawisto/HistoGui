@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 #include"HistoConfig.h"
-using std::__cxx11::string;
+using std::string;
 using std::vector;
 
 class HistoCreator {

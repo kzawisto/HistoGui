@@ -10,7 +10,7 @@
 #include <fstream>
 #include <string>
 #include <map>
-using std::__cxx11::string;
+using namespace std;
 using std::fstream;
 using std::map;
 ///Abstract DataSource, used by HistoCreator to load multiplexed data
