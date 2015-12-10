@@ -35,7 +35,6 @@ HistogramConfig::HistogramConfig(string path_to_json) {
 		vec.push_back({h.second.get<string>("name"), bins,bytes,h.second.get<float>("min"),h.second.get<float>("max")});
 	}
 	numOfHistos = vec.size();
-		    //cout<<" "<<  iter->second; // The object at each step {"pos": [0,0,0], "vel": [0,0,0]}, etc.
 
 }
 /**
@@ -51,7 +50,6 @@ HistogramConfig::HistogramConfig(ptree pt){
 	branchName = options.get<string>("branchName");
 	rootDataFile = options.get<string>("rootDataFile");
 	myDataFile = options.get<string>("myDataFile");
-	//auto iter = pt.begin(),iterEnd = pt.end();
 	multiplexedByteLenOfEvent=0;
 	for(auto h:histos){
 		int bins =  h.second.get<int>("bins");

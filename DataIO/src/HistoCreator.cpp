@@ -52,10 +52,8 @@ void HistoCreator::processTree() {
 		tree->GetEntry(i);
 		for (int k = 0; k < hc.vec.size(); ++k) {
 			unsigned int j = hc.getBin(k, val[k]);
-			//cout<<j<<" ";
 			file1.write((char*) &j, hc.vec[k].bytes);
 		}
-		//cout<<"\n";
 	}
 	file1.close();
 
@@ -66,7 +64,6 @@ void HistoCreator::processTree() {
  */
 void HistoCreator::createHistos() {
 	writeZeros();
-	//fstream file1(hc.myDataFile.c_str(), fstream::in | fstream::binary);
 	IDataSource *ids= PreloadContainer::get().getDataSource(hc.myDataFile.c_str());
 	unsigned int val [hc.vec.size()];
 	for (int i = 0; i < hc.numOfEvents; ++i){

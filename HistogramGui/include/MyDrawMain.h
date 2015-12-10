@@ -32,7 +32,7 @@ public:
     //MyHistogram myHist,myHist1,myHist2,myHist3;//,myHist2;
 	///Radio button to select low cut
 	wxRadioButton * loCut,
-	///Radio button to select high
+	///Radio button to select high cut
 	* hiCut;
 	///Container for histoCreators
 	HistoContainer hc;
@@ -48,11 +48,11 @@ public:
     void render(wxDC& dc);
     void drawHisto(wxDC& dc, MyHistogramWrapper & h, wxPoint from, wxSize hsize);
     void drawTics(wxDC& dc, MyHistogramWrapper & h, wxPoint from, wxSize hsize);
-    // some useful events
     void mouseDown(wxMouseEvent& event);
 
     void setHistSizes();
     ~HistoDrawPane(){}
+    // some useful events
     /*
      void mouseMoved(wxMouseEvent& event);
 

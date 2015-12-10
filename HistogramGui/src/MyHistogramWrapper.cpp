@@ -13,10 +13,7 @@
 
 MyHistogramWrapper::MyHistogramWrapper(int n, float xmin, float  xmax) : xmin(xmin), xmax(xmax)
 {
-//    fillGauss(n,n/2, 100);
-//bins =new vector<unsigned int>();
-//    setH();
-//    title="Gauss";
+
 }
 
 MyHistogramWrapper::~MyHistogramWrapper()
