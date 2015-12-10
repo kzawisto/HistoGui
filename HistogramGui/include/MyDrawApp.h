@@ -11,9 +11,7 @@
 #include <wx/app.h>
 #include "MyDrawMain.h"
 
-/** Generic wxWidgets App class, nothing special here
- *
- */
+/// Generic wxWidgets App class, nothing special here
 class MyHistoApp: public wxApp
 {
     bool OnInit();

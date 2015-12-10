@@ -17,9 +17,7 @@
 #include<string>
 using namespace std;
 class HistoCreator;
-/**
- * This class handles all the communication between the GUI and DataIO framework
- */
+/// This class handles all the communication between the GUI and DataIO framework
 class MyHistogramWrapper
 {
 

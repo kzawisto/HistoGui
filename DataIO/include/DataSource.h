@@ -31,6 +31,7 @@ public:
 	virtual ~DataSource();
 };
 struct DataBuffer;
+///Singleton caching facility for RAM-based PreloadedDataSource's
 class PreloadContainer{
 	map<string, long int> lengths;
 	map<string, DataBuffer*> buffers;

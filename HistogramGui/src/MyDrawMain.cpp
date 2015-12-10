@@ -218,14 +218,14 @@ void HistoDrawPane::drawTics(wxDC& dc, MyHistogramWrapper& hist, wxPoint from, w
    if(hist.cutLow){
 	   double c = hist.cutLow; c/= hist.bins->size();
 
-	   cout<<c<<" ";
+	   //cout<<c<<" ";
 	   int x = from.x + hsize.x*c;
 	   dc.SetPen( wxPen( wxColor(255,0,0), 2) );
 	   dc.DrawLine(wxPoint(x, from.y),wxPoint(x, from.y+hsize.y));
    }
    if(hist.cutHigh){
   	   double c = hist.cutHigh; c/= hist.bins->size();
-  	   cout<<c<<" ";
+  	  // cout<<c<<" ";
   	   int x = from.x + hsize.x*c;
   	 dc.SetPen( wxPen( wxColor(0,255,0), 2) );
   	   dc.DrawLine(wxPoint(x, from.y),wxPoint(x, from.y+hsize.y));

@@ -22,9 +22,8 @@
 
 
 using namespace std;
-/**
- * generic wxWidgets panel for drawing, and user interaction
- */
+
+///generic wxWidgets panel for drawing, and user interaction
 class HistoDrawPane : public wxPanel
 {
 	int old_width, old_height;

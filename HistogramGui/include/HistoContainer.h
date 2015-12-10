@@ -30,9 +30,7 @@ struct HistoGraph{
 	}
 
 };
-/**
- * Proxy between GUI and DataIO.so
- */
+/// Proxy between GUI and DataIO.so
 class HistoContainer {
 	public:
 		/// Whether histograms were loaded successufy and can be drawn

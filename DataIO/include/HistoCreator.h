@@ -13,6 +13,8 @@
 using std::string;
 using std::vector;
 
+
+///Creates histos from single IDataSource
 class HistoCreator {
 	string configPath;
 
