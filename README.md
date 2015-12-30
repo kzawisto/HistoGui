@@ -29,12 +29,17 @@ Finally, run generated executable:
 
 ``` HistogramGui/myApp ```
 
-\cite ROOT
-\cite WxWidgets
-\cite Boost
 
-and  \cite Cj
+##Building using SCons
 
+Clone the repository:
 
+``` git clone https://github.com/kzawisto/HistoGui ```
 
+Add your root/bin to your PATH and root/lib to LD_LIBRARY_PATH (for ./ParseTree only). Then cd into HistoGui folder and type
+``` scons ```
+When build is done, cd into `build` folder and run 
+``` ./ParseTree ```
+and example file TestRoot.root with example config file config.json will be processed to binary data file.
+Then run HistogramGui application.
 
