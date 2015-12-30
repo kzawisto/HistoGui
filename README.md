@@ -29,3 +29,12 @@ Finally, run generated executable:
 
 ``` HistogramGui/myApp ```
 
+\cite ROOT
+\cite WxWidgets
+\cite Boost
+
+and  \cite Cj
+
+
+
+

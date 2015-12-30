@@ -10,7 +10,7 @@
 
 #include <string>
 
-using std::__cxx11::string;
+using std::string;
 
 #include "DataSource.h"
 

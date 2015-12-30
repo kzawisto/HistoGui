@@ -34,7 +34,6 @@ public:
 	};
 	///vector of histogram config data aggregates
 	vector<MyHisto> vec;
-	HistogramConfig(string path_to_json);
 	HistogramConfig(ptree pt);
 	unsigned int getBin(int histo, float value);
 	int noOfBytes(int i);

@@ -1,0 +1,7 @@
+Import("genv")
+env2 = genv.Clone()
+env2.ParseConfig("wx-config --cppflags --libs")
+env2.Append(LIBS=["dataio","boost_program_options"])
+exe1=env2.Program("HistogramGui",Glob("src/*.cpp"))                                               
+Install("..",exe1)
+Return("exe1")
