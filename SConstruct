@@ -2,6 +2,7 @@ import os
 genv=DefaultEnvironment()
 build_path="build"
 os.system("mkdir -p "+ build_path)
+genv["ENV"]["PATH"]= os.environ["PATH"]
 genv["ENV"]["PATH"]+= ":/home/kzawisto/Projects/CMS/root/bin"
 genv["CXXFLAGS"]="-std=c++11"
 genv.Append(CPPPATH=["#DataIO/include","#HistogramGui/include"])
